@@ -234,7 +234,7 @@ void Library::deleteBook() {
             return;
         }
     }
-    cout << "Book not found!\nPress Enter to continue...";
+    cout << "Book not found!\nPress Enter to continue..";
     cin.ignore();
     cin.get();
 }

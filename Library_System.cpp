@@ -114,7 +114,7 @@ void Library::addBook() {
         if (isDuplicateId(id)) {
             cout << "Duplicate ID! Please enter a valid one.\n";
         } else {
-            validId = true;  // ID is valid, break out of the loop
+            validId = true;  
         }
     }
 
